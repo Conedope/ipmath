@@ -1,0 +1,28 @@
+{
+  "name": "ipmath",
+  "version": "1.0.0",
+  "description": "IP/CIDR math CLI in pure JS: network, broadcast, hosts, split, ranges, sums for IPv4 and IPv6",
+  "type": "module",
+  "bin": {
+    "ipmath": "bin/ipmath.js"
+  },
+  "scripts": {
+    "test": "node --test test/*.test.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "files": [
+    "bin",
+    "lib"
+  ],
+  "keywords": [
+    "ip",
+    "cidr",
+    "networking",
+    "ipv4",
+    "ipv6"
+  ],
+  "license": "MIT",
+  "author": "Conedope"
+}
